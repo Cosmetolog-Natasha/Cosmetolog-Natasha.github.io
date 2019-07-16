@@ -132,10 +132,10 @@ article {
         font-weight: bold;
     }
     .imgleft {
-        float: left;
+        float: right;
         margin: 0 30px 20px 0;
         border-radius: 20px;
-	width: 30%;
+	width: 35%;
     }
 @media screen and (max-width: 1200px) {
     
@@ -161,6 +161,12 @@ article {
     header>p {
         margin-top: 60px;
     }
+    .imgleft {
+        float: right;
+        margin: 0 20px 10px 0;
+        border-radius: 20px;
+	width: 35%;
+    }
 }
 @media screen and (max-width: 430px) {
     header {
@@ -177,6 +183,12 @@ article {
     header>p {
         margin-top: 120px;
     }
+    .imgleft {
+        float: right;
+        margin: 0 10px 5px 0;
+        border-radius: 20px;
+	width: 35%;
+    }
 }
 @media screen and (max-width: 395px) {
     header {
@@ -192,5 +204,11 @@ article {
     }
     header>p {
         margin-top: 120px;
+    }
+    .imgleft {
+        float: right;
+        margin: 0 10px 5px 0;
+        border-radius: 20px;
+	width: 35%;
     }
 }
